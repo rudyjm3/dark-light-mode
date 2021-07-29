@@ -2,6 +2,9 @@
 let btn = document.getElementsByClassName("color-btn");
 btn[0].addEventListener("click", colorModeBtn);
 
+let checkbox = document.getElementById("chk");
+checkbox.addEventListener("change", colorModeBtn); 
+
 let bell = document.getElementsByClassName("bell");
 let profileName = document.getElementsByClassName("profile-name");
 
