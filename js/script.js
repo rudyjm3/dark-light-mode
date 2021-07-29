@@ -32,3 +32,16 @@ function colorModeBtn() {
       profileName[0].style.color = "var(--dark-background2)";
    }
 }
+
+
+//ANOTHER WAY TO SWITCH COLOR WITH TOGGLE
+
+// const checkbox = document.getElementById("chk");
+
+// checkbox.addEventListener("change", () => {
+//    let header = document.getElementsByClassName("header");
+//    let sidepanel = document.getElementsByClassName("side-panel");
+
+//    header[0].classList.toggle("light");
+//    sidepanel[0].classList.toggle("light");
+// });
