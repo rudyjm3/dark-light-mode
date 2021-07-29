@@ -24,6 +24,7 @@ body {
 .header{
    width: 100%;
    background-color: var(--dark-background);
+   transition: background-color 1s ease-in-out;
 }
 .header-container{
    justify-content: space-between;
@@ -83,12 +84,13 @@ body {
 .right-header-section{
    line-height: 1;
 }
-.right-header-section a{
+.right-header-section .bell{
    text-decoration: none;
    color: #e9e9e9;
    font-size: 25px;
+   transition: color 0.6s ease-in-out;
 }
-.right-header-section a:nth-child(0):hover{
+.right-header-section .bell:hover{
    color: var(--hover-blue);
 }
 .right-header-section .alert{
@@ -112,7 +114,7 @@ body {
    transition: background-color 0.6s ease;
 }
 .right-header-section .login-btn:hover{
-   background-color: grey;
+   background-color: var(--dark-background2);
 }
 
 /**  START SIDE MENU PANEL  **/
@@ -125,6 +127,7 @@ body {
    max-width: 250px;
    height: 100%;
    padding: 20px 0;
+   transition: background-color 1s ease-in-out;
 }
 .profile-box{
    display: flex;
@@ -133,7 +136,7 @@ body {
    flex-direction: column;
    width: 100%;
 }
-.profile-box .img-placeholder{
+.profile-box .img-placeholder img{
    width: 150px;
    height: 150px;
    border-radius: 50%;
@@ -144,17 +147,17 @@ body {
    height: 150px;
    border-radius: 50%;
 }
-.profile-box h2{
+.profile-box .profile-name{
    font-weight: 600;
-   color: #e9e9e9; 
+   color: #e9e9e9;
+   transition: color 1s ease-in-out; 
 }
 .profile-box hr{
    width: 95%;
    border-color: #636363;
 }
 .side-nav-box{
-   
-   background-color: green;
+   /*background-color: green;*/
    overflow: auto;
 }
 .side-nav-box a{
@@ -183,3 +186,15 @@ body {
 }
 
 /**  END MAIN CONTENT AREA  **/
+
+/**  START LIGHT MODE STYLING  **/
+.header-light{
+   background-color: var(--light-background);
+   transition: background-color 1s ease-in-out;
+}
+.side-panel-light{
+   background-color: var(--light-background2);
+   transition: background-color 1s ease-in-out;
+}
+
+/**  END LIGHT MODE STYLING  **/
