@@ -1,0 +1,25 @@
+Refrence sites that helped
+
+- Check if an element's list of classes contains a specific class.
+https://clubmate.fi/javascript-adding-and-removing-class-names-from-elements
+
+- Toggle function for theme color change. This is if just the toggle was used.
+https://www.youtube.com/watch?v=xodD0nw2veQ&t=330s
+
+- Add event listener is not a function ERROR. This happen becaused I was using 
+getElementsByClassName and not refrencing the index number.
+https://stackoverflow.com/questions/32027935/addeventlistener-is-not-a-function-why-does-this-error-occur
+
+- Check if a checkbox has a check or not.
+https://www.javascripttutorial.net/javascript-dom/javascript-checkbox/
+
+- Google Search query: add style transition with js
+Results: https://www.google.com/search?q=add+style+transition+with+js&rlz=1C1CHBF_enUS746US746&sxsrf=ALeKk00yXi0BcBqDTyRYURLVG2MuP9Aq6w%3A1627558648140&ei=-JICYfaLCJm5tAbfkrOYBQ&oq=add+style+transition+with+js&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAEM0CMgUIABDNAjIFCAAQzQIyBQgAEM0COgcIABBHELADOgQIABANOggIABAIEA0QHjoHCCMQsAIQJzoECCEQCkoECEEYAFD_pBJYt7kSYNm-EmgBcAJ4AIABcogBtgiSAQQxMS4xmAEAoAEByAEIwAEB&sclient=gws-wiz&ved=0ahUKEwj258q4mIjyAhWZHM0KHV_JDFMQ4dUDCA8&uact=5
+
+- Run a function with a button click (Listen for a button click instead of in style JS on the button ("onclick", functionName)
+Mainly helpful - https://skillforge.com/how-to-run-a-function-with-a-button-click-in-javascript/
+Secondary: https://stackoverflow.com/questions/6348494/addeventlistener-vs-onclick
+
+- onclick that leads right into function(all written together) 
+https://www.w3schools.com/jsref/met_element_addeventlistener.asp
+	
