@@ -90,6 +90,9 @@ body {
 .dmode-box .checkbox:checked + .label .slider{
    transform: translateX(28px);
 }
+/*.dmode-box .checkbox + .label .slider{
+   transform: translateX(0px);
+}*/
 
 .dmode-box .color-btn{
    color: #e9e9e9;
